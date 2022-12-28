@@ -34,8 +34,6 @@ const int resolution = 8;
 #include <WiFi.h>
 #include <WebServer.h>
 #include "index.h"  //Web page header file
-#include <Servo.h>
-Servo myservo;   
 
 const char* ssid = "Your Place's";               // different name and password?
 const char* password = "********";                    // password length minimum 8 char
